@@ -4,7 +4,7 @@ public class Classroom {
 
     private String student[];
     private String teacher;
-
+    Student[][] seatingChart = new Student[6][6];
     public Classroom()
     {
         this.student = student;
